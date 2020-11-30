@@ -132,6 +132,6 @@ Allow user to execute system program in jupyter notebook.
 
 ###### Line magic
 
-*   **aliases**: `system`
+*   **aliases**: `exec`
 *   **arguments**:
 *   _varargs_ list of external program and its command line arguments to be executed

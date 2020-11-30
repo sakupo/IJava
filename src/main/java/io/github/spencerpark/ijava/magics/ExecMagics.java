@@ -31,7 +31,7 @@ import java.util.Scanner;
 
 public class ExecMagics {
 
-    @LineMagic(aliases = "system")
+    @LineMagic(aliases = "exec")
     public void exec(List<String> args) throws Exception {
         ProcessBuilder pb = new ProcessBuilder();
         pb.command(args);
